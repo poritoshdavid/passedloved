@@ -25,14 +25,14 @@ class _passedlovedState extends State<passedloved> {
     super.initState();
   }
   checkApp()async{
-    bool isInstalled = await DeviceApps.isAppInstalled('com.openupwide.animals.free');
+    bool isInstalled = await DeviceApps.isAppInstalled('com.openupwide.passedloved.free');
     if(isInstalled){
       showDialog(context: context, builder: (c)=>AlertDialog(content: Text("The Free ${StaticData.appTitle} app has been installed. Do you want to uninstall the app?",style:TextStyles().basicReading()),actions: [
         TextButton(onPressed: (){
           Navigator.of(context).pop();
         },child: Text("Cancel",style: TextStyles().basicReading(),),),
         TextButton(onPressed: ()async{
-          await DeviceApps.uninstallApp('com.openupwide.animals.free');
+          await DeviceApps.uninstallApp('com.openupwide.passedloved.free');
           Navigator.of(context).pop();
         },child: Text("Uninstall",style: TextStyles().basicReading(),),),
       ],));
