@@ -28,10 +28,10 @@ class _GetFullVersnState extends State<GetFullVersn> {
             // mainAxisAlignment: MainAxisAlignment.start,
             children: [
               Container(
-                margin: const EdgeInsets.only(
-                  top: 10.0,
-                  left: 10.0,
-                  right: 10.0,
+                margin:  EdgeInsets.only(
+                  top: Responsible.height*0.01,
+                  left: Responsible.width*0.03,
+                  right: Responsible.width*0.03,
                 ),
                 child: IconButton(
                   onPressed: () {
@@ -47,10 +47,9 @@ class _GetFullVersnState extends State<GetFullVersn> {
               ),
               Expanded(
                 child: Container(
-                  margin: const EdgeInsets.only(top: 10.0),
-                  padding: const EdgeInsets.only(right: 10.0),
+                  padding:  EdgeInsets.only(right: Responsible.width*0.03),
                   child: Text(
-                    'Animal Underworld Wisdom',
+                    "${StaticData.firstT} ${StaticData.secondT}",
                     softWrap: true,
                     maxLines: 4,
                     style: TextStyle(
@@ -105,7 +104,7 @@ class _GetFullVersnState extends State<GetFullVersn> {
                       Container(
                         alignment: Alignment.topLeft,
                         child: Text(
-                          'When you unlock this app, you will be able to browse all the 77 cards, and use the full deck.',
+                          'When you unlock this app, you will be able to browse all the 44 cards, and use the full deck.',
                           style: TextStyle(
                             color: Colors.white,
                             fontSize: Responsible.fontSize * 1.13,

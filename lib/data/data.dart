@@ -9,7 +9,7 @@ class StaticData {
 
   //guidBook
 
-  static String guidBookTitle = "How to Use the Animal Insight Oracle Cards";
+  static String guidBookTitle = "How to Use the $firstT $secondT";
 
   //----key sharedprefence;
 

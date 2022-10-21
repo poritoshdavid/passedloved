@@ -92,23 +92,11 @@ class _GuideBookState extends State<GuideBook> {
                 child: SingleChildScrollView(
                   child: Column(
                     children: [
-                      heading('Introduction'),
-                      SizedBox(height: Responsible.height*0.012),
-                      description("Get ready! This animal deck is about to speak to you and reveal deep and pointed hidden wisdom and lessons. Each card has an explanation to increase your spiritual growth and enlightenment. Your spirit passedloveoracle can help you navigate your relationships and help bring balance and peace into your situations. Pick a card and unearth the deepest parts of your core existence."),
-                      SizedBox(height: Responsible.height*0.012),
-                      description("Each animal is featured either slinking into the night or just coming into the light of day. Dawn and dusk are “neither here nor there” time frames. Each power animal is seen in these in-between worlds. This middle world is a powerful place to connect to animal guides, fairies, and spirit guides because the skin between Heaven and Earth is thinner just before dark and just before the first light of day. These passedloveoracle are unafraid to take you into the underworld aspects of your soul’s development. There dwells the truth behind all matters concerning human experience. They tell it like it is."),
-                      SizedBox(height: Responsible.height*0.012),
-                      description("Totem passedloveoracle or animal guides have been a part of our world since the dawn of man’s history. They guide us and speak to us still today. Discovering your animal guide or guides can help you learn to face and overcome challenges and to better understand how to communicate with the world around you. passedloveoracle are pure and truthful. They can help you admit your own truths and bring out your best qualities. This deck will help you invite other animal guides into your life, as well. They will pull out the hidden wisdom within your subconscious. Put your seat belt on, things are about to get bumpy! This card deck is designed to guide you in answering some of life’s most-deepest and most personal questions. Each card focuses on a specific aspect of your life. With each card, you will see suggestions, answers, and guidance to lead you into the process of personal development and success. If you are serious about making life changes, living more consciously aware and progressing on a soul level, then these cards will get you there faster. It will be important to take time out and let the cards speak to you on a deeper level before jumping into new questions. Allow time to process the information that comes to you. It takes time before coming into your full spiritual power."),
-                      SizedBox(height: Responsible.height*0.03),
-                      const  Divider(height: 2,color: Colors.grey,),
-                      SizedBox(height: Responsible.height*0.02),
-                      heading('Terms of Use.'),
-                      SizedBox(height:  Responsible.height*0.02),
                       description(
-                          'This card deck is designed to guide you in answering some of life\'s most-deepest and personal questions. Each card focuses on a specific aspect of your life. With each card, you will see suggestions, answers and guidance to lead you into the process of personal development and success. If you are serious about making life changes, living more consciously aware and progressing on a soul level, then these cards will get you there faster.'),
+                          'These cards are designed to guide you in answering some of life’s most-deepest and most personal questions. Each card focuses on a specific aspect of your life. With each card, you will see suggestions, answers, and guidance to lead you into the process of personal development and success. If you are serious about making life changes, living more consciously aware and progressing on a soul level, then these cards will get you there faster.'),
                        SizedBox(height:  Responsible.height*0.012),
                       description(
-                          'It will be important to take time out and let the cards speak to you on a deeper level before jumping into new questions. Allow time to process the information that comes to you.  It takes time before coming into your full spiritual power.'),
+                          'It will be important to take time out and let the cards speak to you on a deeper level before jumping into new questions. Allow time to process the information that comes to you. It takes time before coming into your full spiritual power.'),
                        SizedBox(height: Responsible.height*0.012),
                       heading('One Card Spread'),
                        SizedBox(height:  Responsible.height*0.012),
