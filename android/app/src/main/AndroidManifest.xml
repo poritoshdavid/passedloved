@@ -1,6 +1,5 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.openupwide.passedloved">
-    <uses-permission android:name="android.permission.QUERY_ALL_PACKAGES"/>
+    package="com.openupwide.passedloved.full">
     <uses-permission android:name="android.permission.REQUEST_DELETE_PACKAGES"/>
    <application
         android:label="passedloved"
